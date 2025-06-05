@@ -65,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
         textInput.addEventListener('input', drawCanvas);
         window.addEventListener('resize', drawCanvas);
         document.querySelector('.download-btn').addEventListener('click', downloadImage);
-        document.querySelector('.share-btn').addEventListener('click', shareImage);
         
         templateSelect.addEventListener('change', function() {
             const selectedTemplate = this.value;
